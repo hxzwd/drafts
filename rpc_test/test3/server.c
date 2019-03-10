@@ -7,12 +7,15 @@
 #include "test3.h"
 
 
-char ** f_test3_1_svc(st_rpc_array *a, struct svc_req *req)
+st_rpc_array * f_test3_1_svc(st_rpc_array *a, struct svc_req *req)
 {
 
 	static char msg[256];
-	static char data[2049] = { 0 };
-	uint32_t bytes_readed;
+	static int data[16384] = { 0 };
+	uint32_t words_readed;
+	static st_rpc_array out;
+	out.st_rpc_array_len = 0;
+	out.st_rpc_array_val = NULL;
 	static char *p;
 	FILE *fd;
 
@@ -22,7 +25,9 @@ char ** f_test3_1_svc(st_rpc_array *a, struct svc_req *req)
 		sprintf(msg, "Error: can not open file: random_data.bin\n");
 		p = msg;
 		fprintf(stderr, "Return error...\n");
-		return (&p);
+		return NULL;
+//		return (&out);
+//		return (&p);
 	}
 
 	printf("Receive argument a [typeof(a) = st_rpc_array *]:\n");
@@ -39,14 +44,29 @@ char ** f_test3_1_svc(st_rpc_array *a, struct svc_req *req)
 //	sprintf(msg, "Hello, from RPC server [argument is %d]\n", *a);
 //	p = msg;
 
-	bytes_readed = fread(data, sizeof(char), 2048, fd);
+	uint32_t data_len = 65536/4;
+//	words_readed = fread(data, 4, 65536/4, fd);
+	words_readed = fread(data, 4, data_len, fd);
 	fclose(fd);
-	printf("Bytes readed: %d\n", bytes_readed);
+	printf("Words readed: %d\n", words_readed);
 
+/*
+	for(uint32_t i = 0; i < 65536/4; i++)
+	{
+		printf("%08X ", data[i]);
+	}
+	printf("\n\n");
+*/
 
 	printf("Return value...\n");
-	p = data;
-	return (&p);
+
+	out.st_rpc_array_len = data_len;
+	out.st_rpc_array_val = (int *)data;
+
+	return (&out);
+
+//	p = data;
+//	return (&p);
 
 //	return (&p);
 

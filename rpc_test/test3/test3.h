@@ -24,14 +24,14 @@ typedef struct {
 
 #if defined(__STDC__) || defined(__cplusplus)
 #define F_TEST3 1
-extern  char ** f_test3_1(st_rpc_array *, CLIENT *);
-extern  char ** f_test3_1_svc(st_rpc_array *, struct svc_req *);
+extern  st_rpc_array * f_test3_1(st_rpc_array *, CLIENT *);
+extern  st_rpc_array * f_test3_1_svc(st_rpc_array *, struct svc_req *);
 extern int rpc_test_3_prog_1_freeresult (SVCXPRT *, xdrproc_t, caddr_t);
 
 #else /* K&R C */
 #define F_TEST3 1
-extern  char ** f_test3_1();
-extern  char ** f_test3_1_svc();
+extern  st_rpc_array * f_test3_1();
+extern  st_rpc_array * f_test3_1_svc();
 extern int rpc_test_3_prog_1_freeresult ();
 #endif /* K&R C */
 
