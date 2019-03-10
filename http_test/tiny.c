@@ -356,6 +356,11 @@ void process(int fd, struct sockaddr_in *clientaddr){
 	{
 		f_catch_test();
 	}
+	else if(!strcmp(req.filename, "plotly_test.html"))
+	{
+		f_catch_plotly_test();
+	}
+
 
 
 
