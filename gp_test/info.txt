@@ -1,0 +1,33 @@
+
+set title "title"
+set xlabel "xlabel"
+set ylabel "ylabel"
+
+set yrange [-200:200]
+set xrange [-100:]
+set autoscale
+
+set grid layerdefault back lt 0
+show grid
+
+plot "out.bin" binary format="%int" u :1 with lines linestyle 2
+replot
+clear
+
+
+
+
+
+set y2tics border
+set x2zeroaxis linetype -1
+
+set term x11
+set term dumb
+set terminal dumb size 120, 30
+
+show terminal
+
+set terminal png size 1024,768
+set output "plot.png"
+ 
+set terminal png medium size 640,480 background '#ffffff'
