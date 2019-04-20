@@ -1,0 +1,12 @@
+
+import ctypes
+
+lib_handle = ctypes.CDLL("./libclib1.so")
+
+alloc_func = lib_handle.alloc_memory_block
+free_func = lib_handle.free_memory_block
+
+alloc_func.restype = ctypes.POINTER(ctypes.c_char)
+free_func.argtypes = [ ctypes.POINTER(ctypes.c_char), ]
+
+

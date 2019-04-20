@@ -1,0 +1,269 @@
+The system is: Linux - 3.16.0-44-generic - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /home/linuxbrew/.linuxbrew/bin/cc 
+Build flags: 
+Id flags: 
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is GNU, found in "/home/hjk/work_dir/cmake_test/build/CMakeFiles/2.8.12.2/CompilerIdC/a.out"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /home/linuxbrew/.linuxbrew/bin/c++ 
+Build flags: 
+Id flags: 
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is GNU, found in "/home/hjk/work_dir/cmake_test/build/CMakeFiles/2.8.12.2/CompilerIdCXX/a.out"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: /home/hjk/work_dir/cmake_test/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1220029855/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1220029855.dir/build.make CMakeFiles/cmTryCompileExec1220029855.dir/build
+make[1]: Вход в каталог `/home/hjk/work_dir/cmake_test/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/hjk/work_dir/cmake_test/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+/usr/bin/cmake: /home/hjk/qt_projects/MATLAB/bin/glnxa64/libcurl.so.4: no version information available (required by /usr/bin/cmake)
+Building C object CMakeFiles/cmTryCompileExec1220029855.dir/testCCompiler.c.o
+/home/linuxbrew/.linuxbrew/bin/cc    -o CMakeFiles/cmTryCompileExec1220029855.dir/testCCompiler.c.o   -c /home/hjk/work_dir/cmake_test/build/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTryCompileExec1220029855
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1220029855.dir/link.txt --verbose=1
+/usr/bin/cmake: /home/hjk/qt_projects/MATLAB/bin/glnxa64/libcurl.so.4: no version information available (required by /usr/bin/cmake)
+/home/linuxbrew/.linuxbrew/bin/cc       CMakeFiles/cmTryCompileExec1220029855.dir/testCCompiler.c.o  -o cmTryCompileExec1220029855 -rdynamic 
+make[1]: Выход из каталога `/home/hjk/work_dir/cmake_test/build/CMakeFiles/CMakeTmp'
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /home/hjk/work_dir/cmake_test/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1985318280/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1985318280.dir/build.make CMakeFiles/cmTryCompileExec1985318280.dir/build
+make[1]: Вход в каталог `/home/hjk/work_dir/cmake_test/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/hjk/work_dir/cmake_test/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+/usr/bin/cmake: /home/hjk/qt_projects/MATLAB/bin/glnxa64/libcurl.so.4: no version information available (required by /usr/bin/cmake)
+Building C object CMakeFiles/cmTryCompileExec1985318280.dir/CMakeCCompilerABI.c.o
+/home/linuxbrew/.linuxbrew/bin/cc    -o CMakeFiles/cmTryCompileExec1985318280.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-2.8/Modules/CMakeCCompilerABI.c
+Linking C executable cmTryCompileExec1985318280
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1985318280.dir/link.txt --verbose=1
+/usr/bin/cmake: /home/hjk/qt_projects/MATLAB/bin/glnxa64/libcurl.so.4: no version information available (required by /usr/bin/cmake)
+/home/linuxbrew/.linuxbrew/bin/cc     -v CMakeFiles/cmTryCompileExec1985318280.dir/CMakeCCompilerABI.c.o  -o cmTryCompileExec1985318280 -rdynamic  
+Reading specs from /home/linuxbrew/.linuxbrew/Cellar/gcc/5.5.0/lib/gcc/x86_64-unknown-linux-gnu/5.5.0/specs
+COLLECT_GCC=/home/linuxbrew/.linuxbrew/bin/cc
+COLLECT_LTO_WRAPPER=/home/linuxbrew/.linuxbrew/Cellar/gcc/5.5.0/libexec/gcc/x86_64-unknown-linux-gnu/5.5.0/lto-wrapper
+Target: x86_64-unknown-linux-gnu
+Configured with: ../configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/gcc/5.5.0  --enable-languages=c,c++,objc,obj-c++,fortran --program-suffix=-5 --with-gmp=/home/linuxbrew/.linuxbrew/opt/gmp --with-mpfr=/home/linuxbrew/.linuxbrew/opt/mpfr --with-mpc=/home/linuxbrew/.linuxbrew/opt/libmpc --with-isl=/home/linuxbrew/.linuxbrew/opt/isl  --enable-stage1-checking --enable-checking=release --enable-lto --with-build-config=bootstrap-debug --disable-werror --with-pkgversion='Homebrew gcc 5.5.0' --with-bugurl=https://github.com/Homebrew/homebrew/issues --with-boot-ldflags='-static-libstdc++ -static-libgcc ' --disable-nls --disable-multilib
+Thread model: posix
+gcc version 5.5.0 (Homebrew gcc 5.5.0) 
+COMPILER_PATH=/home/linuxbrew/.linuxbrew/Cellar/gcc/5.5.0/libexec/gcc/x86_64-unknown-linux-gnu/5.5.0/:/home/linuxbrew/.linuxbrew/Cellar/gcc/5.5.0/libexec/gcc/x86_64-unknown-linux-gnu/5.5.0/:/home/linuxbrew/.linuxbrew/Cellar/gcc/5.5.0/libexec/gcc/x86_64-unknown-linux-gnu/:/home/linuxbrew/.linuxbrew/Cellar/gcc/5.5.0/lib/gcc/x86_64-unknown-linux-gnu/5.5.0/:/home/linuxbrew/.linuxbrew/Cellar/gcc/5.5.0/lib/gcc/x86_64-unknown-linux-gnu/
+LIBRARY_PATH=/home/linuxbrew/.linuxbrew/Cellar/gcc/5.5.0/lib/gcc/x86_64-unknown-linux-gnu/5.5.0/:/home/linuxbrew/.linuxbrew/Cellar/gcc/5.5.0/lib/gcc/x86_64-unknown-linux-gnu/5.5.0/../../../../lib64/:/lib/x86_64-linux-gnu/:/lib/../lib64/:/usr/lib/x86_64-linux-gnu/:/home/linuxbrew/.linuxbrew/Cellar/gcc/5.5.0/lib/gcc/x86_64-unknown-linux-gnu/5.5.0/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec1985318280' '-rdynamic' '-mtune=generic' '-march=x86-64'
+ /home/linuxbrew/.linuxbrew/Cellar/gcc/5.5.0/libexec/gcc/x86_64-unknown-linux-gnu/5.5.0/collect2 -plugin /home/linuxbrew/.linuxbrew/Cellar/gcc/5.5.0/libexec/gcc/x86_64-unknown-linux-gnu/5.5.0/liblto_plugin.so -plugin-opt=/home/linuxbrew/.linuxbrew/Cellar/gcc/5.5.0/libexec/gcc/x86_64-unknown-linux-gnu/5.5.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccuMkTkh.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --eh-frame-hdr -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 --dynamic-linker /home/linuxbrew/.linuxbrew/lib/ld.so -rpath /home/linuxbrew/.linuxbrew/lib -o cmTryCompileExec1985318280 /home/linuxbrew/.linuxbrew/Cellar/gcc/5.5.0/lib/gcc/x86_64-unknown-linux-gnu/5.5.0/crt1.o /home/linuxbrew/.linuxbrew/Cellar/gcc/5.5.0/lib/gcc/x86_64-unknown-linux-gnu/5.5.0/crti.o /home/linuxbrew/.linuxbrew/Cellar/gcc/5.5.0/lib/gcc/x86_64-unknown-linux-gnu/5.5.0/crtbegin.o -nostdlib -L/home/linuxbrew/.linuxbrew/Cellar/gcc/5.5.0/lib/gcc/x86_64-unknown-linux-gnu/5.5.0 -L/home/linuxbrew/.linuxbrew/lib CMakeFiles/cmTryCompileExec1985318280.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /home/linuxbrew/.linuxbrew/Cellar/gcc/5.5.0/lib/gcc/x86_64-unknown-linux-gnu/5.5.0/crtend.o /home/linuxbrew/.linuxbrew/Cellar/gcc/5.5.0/lib/gcc/x86_64-unknown-linux-gnu/5.5.0/crtn.o
+make[1]: Выход из каталога `/home/hjk/work_dir/cmake_test/build/CMakeFiles/CMakeTmp'
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/hjk/work_dir/cmake_test/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:/usr/bin/make "cmTryCompileExec1985318280/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTryCompileExec1985318280.dir/build.make CMakeFiles/cmTryCompileExec1985318280.dir/build]
+  ignore line: [make[1]: Вход в каталог `/home/hjk/work_dir/cmake_test/build/CMakeFiles/CMakeTmp']
+  ignore line: [/usr/bin/cmake -E cmake_progress_report /home/hjk/work_dir/cmake_test/build/CMakeFiles/CMakeTmp/CMakeFiles 1]
+  ignore line: [/usr/bin/cmake: /home/hjk/qt_projects/MATLAB/bin/glnxa64/libcurl.so.4: no version information available (required by /usr/bin/cmake)]
+  ignore line: [Building C object CMakeFiles/cmTryCompileExec1985318280.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/home/linuxbrew/.linuxbrew/bin/cc    -o CMakeFiles/cmTryCompileExec1985318280.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-2.8/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTryCompileExec1985318280]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1985318280.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/cmake: /home/hjk/qt_projects/MATLAB/bin/glnxa64/libcurl.so.4: no version information available (required by /usr/bin/cmake)]
+  ignore line: [/home/linuxbrew/.linuxbrew/bin/cc     -v CMakeFiles/cmTryCompileExec1985318280.dir/CMakeCCompilerABI.c.o  -o cmTryCompileExec1985318280 -rdynamic  ]
+  ignore line: [Reading specs from /home/linuxbrew/.linuxbrew/Cellar/gcc/5.5.0/lib/gcc/x86_64-unknown-linux-gnu/5.5.0/specs]
+  ignore line: [COLLECT_GCC=/home/linuxbrew/.linuxbrew/bin/cc]
+  ignore line: [COLLECT_LTO_WRAPPER=/home/linuxbrew/.linuxbrew/Cellar/gcc/5.5.0/libexec/gcc/x86_64-unknown-linux-gnu/5.5.0/lto-wrapper]
+  ignore line: [Target: x86_64-unknown-linux-gnu]
+  ignore line: [Configured with: ../configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/gcc/5.5.0  --enable-languages=c,c++,objc,obj-c++,fortran --program-suffix=-5 --with-gmp=/home/linuxbrew/.linuxbrew/opt/gmp --with-mpfr=/home/linuxbrew/.linuxbrew/opt/mpfr --with-mpc=/home/linuxbrew/.linuxbrew/opt/libmpc --with-isl=/home/linuxbrew/.linuxbrew/opt/isl  --enable-stage1-checking --enable-checking=release --enable-lto --with-build-config=bootstrap-debug --disable-werror --with-pkgversion='Homebrew gcc 5.5.0' --with-bugurl=https://github.com/Homebrew/homebrew/issues --with-boot-ldflags='-static-libstdc++ -static-libgcc ' --disable-nls --disable-multilib]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 5.5.0 (Homebrew gcc 5.5.0) ]
+  ignore line: [COMPILER_PATH=/home/linuxbrew/.linuxbrew/Cellar/gcc/5.5.0/libexec/gcc/x86_64-unknown-linux-gnu/5.5.0/:/home/linuxbrew/.linuxbrew/Cellar/gcc/5.5.0/libexec/gcc/x86_64-unknown-linux-gnu/5.5.0/:/home/linuxbrew/.linuxbrew/Cellar/gcc/5.5.0/libexec/gcc/x86_64-unknown-linux-gnu/:/home/linuxbrew/.linuxbrew/Cellar/gcc/5.5.0/lib/gcc/x86_64-unknown-linux-gnu/5.5.0/:/home/linuxbrew/.linuxbrew/Cellar/gcc/5.5.0/lib/gcc/x86_64-unknown-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/home/linuxbrew/.linuxbrew/Cellar/gcc/5.5.0/lib/gcc/x86_64-unknown-linux-gnu/5.5.0/:/home/linuxbrew/.linuxbrew/Cellar/gcc/5.5.0/lib/gcc/x86_64-unknown-linux-gnu/5.5.0/../../../../lib64/:/lib/x86_64-linux-gnu/:/lib/../lib64/:/usr/lib/x86_64-linux-gnu/:/home/linuxbrew/.linuxbrew/Cellar/gcc/5.5.0/lib/gcc/x86_64-unknown-linux-gnu/5.5.0/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec1985318280' '-rdynamic' '-mtune=generic' '-march=x86-64']
+  link line: [ /home/linuxbrew/.linuxbrew/Cellar/gcc/5.5.0/libexec/gcc/x86_64-unknown-linux-gnu/5.5.0/collect2 -plugin /home/linuxbrew/.linuxbrew/Cellar/gcc/5.5.0/libexec/gcc/x86_64-unknown-linux-gnu/5.5.0/liblto_plugin.so -plugin-opt=/home/linuxbrew/.linuxbrew/Cellar/gcc/5.5.0/libexec/gcc/x86_64-unknown-linux-gnu/5.5.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccuMkTkh.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --eh-frame-hdr -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 --dynamic-linker /home/linuxbrew/.linuxbrew/lib/ld.so -rpath /home/linuxbrew/.linuxbrew/lib -o cmTryCompileExec1985318280 /home/linuxbrew/.linuxbrew/Cellar/gcc/5.5.0/lib/gcc/x86_64-unknown-linux-gnu/5.5.0/crt1.o /home/linuxbrew/.linuxbrew/Cellar/gcc/5.5.0/lib/gcc/x86_64-unknown-linux-gnu/5.5.0/crti.o /home/linuxbrew/.linuxbrew/Cellar/gcc/5.5.0/lib/gcc/x86_64-unknown-linux-gnu/5.5.0/crtbegin.o -nostdlib -L/home/linuxbrew/.linuxbrew/Cellar/gcc/5.5.0/lib/gcc/x86_64-unknown-linux-gnu/5.5.0 -L/home/linuxbrew/.linuxbrew/lib CMakeFiles/cmTryCompileExec1985318280.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /home/linuxbrew/.linuxbrew/Cellar/gcc/5.5.0/lib/gcc/x86_64-unknown-linux-gnu/5.5.0/crtend.o /home/linuxbrew/.linuxbrew/Cellar/gcc/5.5.0/lib/gcc/x86_64-unknown-linux-gnu/5.5.0/crtn.o]
+    arg [/home/linuxbrew/.linuxbrew/Cellar/gcc/5.5.0/libexec/gcc/x86_64-unknown-linux-gnu/5.5.0/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/home/linuxbrew/.linuxbrew/Cellar/gcc/5.5.0/libexec/gcc/x86_64-unknown-linux-gnu/5.5.0/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/home/linuxbrew/.linuxbrew/Cellar/gcc/5.5.0/libexec/gcc/x86_64-unknown-linux-gnu/5.5.0/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccuMkTkh.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [--dynamic-linker] ==> ignore
+    arg [/home/linuxbrew/.linuxbrew/lib/ld.so] ==> ignore
+    arg [-rpath] ==> ignore
+    arg [/home/linuxbrew/.linuxbrew/lib] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTryCompileExec1985318280] ==> ignore
+    arg [/home/linuxbrew/.linuxbrew/Cellar/gcc/5.5.0/lib/gcc/x86_64-unknown-linux-gnu/5.5.0/crt1.o] ==> ignore
+    arg [/home/linuxbrew/.linuxbrew/Cellar/gcc/5.5.0/lib/gcc/x86_64-unknown-linux-gnu/5.5.0/crti.o] ==> ignore
+    arg [/home/linuxbrew/.linuxbrew/Cellar/gcc/5.5.0/lib/gcc/x86_64-unknown-linux-gnu/5.5.0/crtbegin.o] ==> ignore
+    arg [-nostdlib] ==> ignore
+    arg [-L/home/linuxbrew/.linuxbrew/Cellar/gcc/5.5.0/lib/gcc/x86_64-unknown-linux-gnu/5.5.0] ==> dir [/home/linuxbrew/.linuxbrew/Cellar/gcc/5.5.0/lib/gcc/x86_64-unknown-linux-gnu/5.5.0]
+    arg [-L/home/linuxbrew/.linuxbrew/lib] ==> dir [/home/linuxbrew/.linuxbrew/lib]
+    arg [CMakeFiles/cmTryCompileExec1985318280.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [/home/linuxbrew/.linuxbrew/Cellar/gcc/5.5.0/lib/gcc/x86_64-unknown-linux-gnu/5.5.0/crtend.o] ==> ignore
+    arg [/home/linuxbrew/.linuxbrew/Cellar/gcc/5.5.0/lib/gcc/x86_64-unknown-linux-gnu/5.5.0/crtn.o] ==> ignore
+  remove lib [gcc]
+  remove lib [gcc_s]
+  remove lib [gcc]
+  remove lib [gcc_s]
+  collapse library dir [/home/linuxbrew/.linuxbrew/Cellar/gcc/5.5.0/lib/gcc/x86_64-unknown-linux-gnu/5.5.0] ==> [/home/linuxbrew/.linuxbrew/Cellar/gcc/5.5.0/lib/gcc/x86_64-unknown-linux-gnu/5.5.0]
+  collapse library dir [/home/linuxbrew/.linuxbrew/lib] ==> [/home/linuxbrew/.linuxbrew/lib]
+  implicit libs: [c]
+  implicit dirs: [/home/linuxbrew/.linuxbrew/Cellar/gcc/5.5.0/lib/gcc/x86_64-unknown-linux-gnu/5.5.0;/home/linuxbrew/.linuxbrew/lib]
+  implicit fwks: []
+
+
+Determining if the CXX compiler works passed with the following output:
+Change Dir: /home/hjk/work_dir/cmake_test/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec4243742684/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec4243742684.dir/build.make CMakeFiles/cmTryCompileExec4243742684.dir/build
+make[1]: Вход в каталог `/home/hjk/work_dir/cmake_test/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/hjk/work_dir/cmake_test/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+/usr/bin/cmake: /home/hjk/qt_projects/MATLAB/bin/glnxa64/libcurl.so.4: no version information available (required by /usr/bin/cmake)
+Building CXX object CMakeFiles/cmTryCompileExec4243742684.dir/testCXXCompiler.cxx.o
+/home/linuxbrew/.linuxbrew/bin/c++     -o CMakeFiles/cmTryCompileExec4243742684.dir/testCXXCompiler.cxx.o -c /home/hjk/work_dir/cmake_test/build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTryCompileExec4243742684
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec4243742684.dir/link.txt --verbose=1
+/usr/bin/cmake: /home/hjk/qt_projects/MATLAB/bin/glnxa64/libcurl.so.4: no version information available (required by /usr/bin/cmake)
+/home/linuxbrew/.linuxbrew/bin/c++        CMakeFiles/cmTryCompileExec4243742684.dir/testCXXCompiler.cxx.o  -o cmTryCompileExec4243742684 -rdynamic 
+make[1]: Выход из каталога `/home/hjk/work_dir/cmake_test/build/CMakeFiles/CMakeTmp'
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /home/hjk/work_dir/cmake_test/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec758379369/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec758379369.dir/build.make CMakeFiles/cmTryCompileExec758379369.dir/build
+make[1]: Вход в каталог `/home/hjk/work_dir/cmake_test/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/hjk/work_dir/cmake_test/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+/usr/bin/cmake: /home/hjk/qt_projects/MATLAB/bin/glnxa64/libcurl.so.4: no version information available (required by /usr/bin/cmake)
+Building CXX object CMakeFiles/cmTryCompileExec758379369.dir/CMakeCXXCompilerABI.cpp.o
+/home/linuxbrew/.linuxbrew/bin/c++     -o CMakeFiles/cmTryCompileExec758379369.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-2.8/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTryCompileExec758379369
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec758379369.dir/link.txt --verbose=1
+/usr/bin/cmake: /home/hjk/qt_projects/MATLAB/bin/glnxa64/libcurl.so.4: no version information available (required by /usr/bin/cmake)
+/home/linuxbrew/.linuxbrew/bin/c++      -v CMakeFiles/cmTryCompileExec758379369.dir/CMakeCXXCompilerABI.cpp.o  -o cmTryCompileExec758379369 -rdynamic  
+Reading specs from /home/linuxbrew/.linuxbrew/Cellar/gcc/5.5.0/lib/gcc/x86_64-unknown-linux-gnu/5.5.0/specs
+COLLECT_GCC=/home/linuxbrew/.linuxbrew/bin/c++
+COLLECT_LTO_WRAPPER=/home/linuxbrew/.linuxbrew/Cellar/gcc/5.5.0/libexec/gcc/x86_64-unknown-linux-gnu/5.5.0/lto-wrapper
+Target: x86_64-unknown-linux-gnu
+Configured with: ../configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/gcc/5.5.0  --enable-languages=c,c++,objc,obj-c++,fortran --program-suffix=-5 --with-gmp=/home/linuxbrew/.linuxbrew/opt/gmp --with-mpfr=/home/linuxbrew/.linuxbrew/opt/mpfr --with-mpc=/home/linuxbrew/.linuxbrew/opt/libmpc --with-isl=/home/linuxbrew/.linuxbrew/opt/isl  --enable-stage1-checking --enable-checking=release --enable-lto --with-build-config=bootstrap-debug --disable-werror --with-pkgversion='Homebrew gcc 5.5.0' --with-bugurl=https://github.com/Homebrew/homebrew/issues --with-boot-ldflags='-static-libstdc++ -static-libgcc ' --disable-nls --disable-multilib
+Thread model: posix
+gcc version 5.5.0 (Homebrew gcc 5.5.0) 
+COMPILER_PATH=/home/linuxbrew/.linuxbrew/Cellar/gcc/5.5.0/libexec/gcc/x86_64-unknown-linux-gnu/5.5.0/:/home/linuxbrew/.linuxbrew/Cellar/gcc/5.5.0/libexec/gcc/x86_64-unknown-linux-gnu/5.5.0/:/home/linuxbrew/.linuxbrew/Cellar/gcc/5.5.0/libexec/gcc/x86_64-unknown-linux-gnu/:/home/linuxbrew/.linuxbrew/Cellar/gcc/5.5.0/lib/gcc/x86_64-unknown-linux-gnu/5.5.0/:/home/linuxbrew/.linuxbrew/Cellar/gcc/5.5.0/lib/gcc/x86_64-unknown-linux-gnu/
+LIBRARY_PATH=/home/linuxbrew/.linuxbrew/Cellar/gcc/5.5.0/lib/gcc/x86_64-unknown-linux-gnu/5.5.0/:/home/linuxbrew/.linuxbrew/Cellar/gcc/5.5.0/lib/gcc/x86_64-unknown-linux-gnu/5.5.0/../../../../lib64/:/lib/x86_64-linux-gnu/:/lib/../lib64/:/usr/lib/x86_64-linux-gnu/:/home/linuxbrew/.linuxbrew/Cellar/gcc/5.5.0/lib/gcc/x86_64-unknown-linux-gnu/5.5.0/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec758379369' '-rdynamic' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /home/linuxbrew/.linuxbrew/Cellar/gcc/5.5.0/libexec/gcc/x86_64-unknown-linux-gnu/5.5.0/collect2 -plugin /home/linuxbrew/.linuxbrew/Cellar/gcc/5.5.0/libexec/gcc/x86_64-unknown-linux-gnu/5.5.0/liblto_plugin.so -plugin-opt=/home/linuxbrew/.linuxbrew/Cellar/gcc/5.5.0/libexec/gcc/x86_64-unknown-linux-gnu/5.5.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccX8oZbh.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --eh-frame-hdr -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 --dynamic-linker /home/linuxbrew/.linuxbrew/lib/ld.so -rpath /home/linuxbrew/.linuxbrew/lib -o cmTryCompileExec758379369 /home/linuxbrew/.linuxbrew/Cellar/gcc/5.5.0/lib/gcc/x86_64-unknown-linux-gnu/5.5.0/crt1.o /home/linuxbrew/.linuxbrew/Cellar/gcc/5.5.0/lib/gcc/x86_64-unknown-linux-gnu/5.5.0/crti.o /home/linuxbrew/.linuxbrew/Cellar/gcc/5.5.0/lib/gcc/x86_64-unknown-linux-gnu/5.5.0/crtbegin.o -nostdlib -L/home/linuxbrew/.linuxbrew/Cellar/gcc/5.5.0/lib/gcc/x86_64-unknown-linux-gnu/5.5.0 -L/home/linuxbrew/.linuxbrew/lib CMakeFiles/cmTryCompileExec758379369.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /home/linuxbrew/.linuxbrew/Cellar/gcc/5.5.0/lib/gcc/x86_64-unknown-linux-gnu/5.5.0/crtend.o /home/linuxbrew/.linuxbrew/Cellar/gcc/5.5.0/lib/gcc/x86_64-unknown-linux-gnu/5.5.0/crtn.o
+make[1]: Выход из каталога `/home/hjk/work_dir/cmake_test/build/CMakeFiles/CMakeTmp'
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/hjk/work_dir/cmake_test/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:/usr/bin/make "cmTryCompileExec758379369/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTryCompileExec758379369.dir/build.make CMakeFiles/cmTryCompileExec758379369.dir/build]
+  ignore line: [make[1]: Вход в каталог `/home/hjk/work_dir/cmake_test/build/CMakeFiles/CMakeTmp']
+  ignore line: [/usr/bin/cmake -E cmake_progress_report /home/hjk/work_dir/cmake_test/build/CMakeFiles/CMakeTmp/CMakeFiles 1]
+  ignore line: [/usr/bin/cmake: /home/hjk/qt_projects/MATLAB/bin/glnxa64/libcurl.so.4: no version information available (required by /usr/bin/cmake)]
+  ignore line: [Building CXX object CMakeFiles/cmTryCompileExec758379369.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/home/linuxbrew/.linuxbrew/bin/c++     -o CMakeFiles/cmTryCompileExec758379369.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-2.8/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Linking CXX executable cmTryCompileExec758379369]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec758379369.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/cmake: /home/hjk/qt_projects/MATLAB/bin/glnxa64/libcurl.so.4: no version information available (required by /usr/bin/cmake)]
+  ignore line: [/home/linuxbrew/.linuxbrew/bin/c++      -v CMakeFiles/cmTryCompileExec758379369.dir/CMakeCXXCompilerABI.cpp.o  -o cmTryCompileExec758379369 -rdynamic  ]
+  ignore line: [Reading specs from /home/linuxbrew/.linuxbrew/Cellar/gcc/5.5.0/lib/gcc/x86_64-unknown-linux-gnu/5.5.0/specs]
+  ignore line: [COLLECT_GCC=/home/linuxbrew/.linuxbrew/bin/c++]
+  ignore line: [COLLECT_LTO_WRAPPER=/home/linuxbrew/.linuxbrew/Cellar/gcc/5.5.0/libexec/gcc/x86_64-unknown-linux-gnu/5.5.0/lto-wrapper]
+  ignore line: [Target: x86_64-unknown-linux-gnu]
+  ignore line: [Configured with: ../configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/gcc/5.5.0  --enable-languages=c,c++,objc,obj-c++,fortran --program-suffix=-5 --with-gmp=/home/linuxbrew/.linuxbrew/opt/gmp --with-mpfr=/home/linuxbrew/.linuxbrew/opt/mpfr --with-mpc=/home/linuxbrew/.linuxbrew/opt/libmpc --with-isl=/home/linuxbrew/.linuxbrew/opt/isl  --enable-stage1-checking --enable-checking=release --enable-lto --with-build-config=bootstrap-debug --disable-werror --with-pkgversion='Homebrew gcc 5.5.0' --with-bugurl=https://github.com/Homebrew/homebrew/issues --with-boot-ldflags='-static-libstdc++ -static-libgcc ' --disable-nls --disable-multilib]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 5.5.0 (Homebrew gcc 5.5.0) ]
+  ignore line: [COMPILER_PATH=/home/linuxbrew/.linuxbrew/Cellar/gcc/5.5.0/libexec/gcc/x86_64-unknown-linux-gnu/5.5.0/:/home/linuxbrew/.linuxbrew/Cellar/gcc/5.5.0/libexec/gcc/x86_64-unknown-linux-gnu/5.5.0/:/home/linuxbrew/.linuxbrew/Cellar/gcc/5.5.0/libexec/gcc/x86_64-unknown-linux-gnu/:/home/linuxbrew/.linuxbrew/Cellar/gcc/5.5.0/lib/gcc/x86_64-unknown-linux-gnu/5.5.0/:/home/linuxbrew/.linuxbrew/Cellar/gcc/5.5.0/lib/gcc/x86_64-unknown-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/home/linuxbrew/.linuxbrew/Cellar/gcc/5.5.0/lib/gcc/x86_64-unknown-linux-gnu/5.5.0/:/home/linuxbrew/.linuxbrew/Cellar/gcc/5.5.0/lib/gcc/x86_64-unknown-linux-gnu/5.5.0/../../../../lib64/:/lib/x86_64-linux-gnu/:/lib/../lib64/:/usr/lib/x86_64-linux-gnu/:/home/linuxbrew/.linuxbrew/Cellar/gcc/5.5.0/lib/gcc/x86_64-unknown-linux-gnu/5.5.0/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec758379369' '-rdynamic' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  link line: [ /home/linuxbrew/.linuxbrew/Cellar/gcc/5.5.0/libexec/gcc/x86_64-unknown-linux-gnu/5.5.0/collect2 -plugin /home/linuxbrew/.linuxbrew/Cellar/gcc/5.5.0/libexec/gcc/x86_64-unknown-linux-gnu/5.5.0/liblto_plugin.so -plugin-opt=/home/linuxbrew/.linuxbrew/Cellar/gcc/5.5.0/libexec/gcc/x86_64-unknown-linux-gnu/5.5.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccX8oZbh.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --eh-frame-hdr -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 --dynamic-linker /home/linuxbrew/.linuxbrew/lib/ld.so -rpath /home/linuxbrew/.linuxbrew/lib -o cmTryCompileExec758379369 /home/linuxbrew/.linuxbrew/Cellar/gcc/5.5.0/lib/gcc/x86_64-unknown-linux-gnu/5.5.0/crt1.o /home/linuxbrew/.linuxbrew/Cellar/gcc/5.5.0/lib/gcc/x86_64-unknown-linux-gnu/5.5.0/crti.o /home/linuxbrew/.linuxbrew/Cellar/gcc/5.5.0/lib/gcc/x86_64-unknown-linux-gnu/5.5.0/crtbegin.o -nostdlib -L/home/linuxbrew/.linuxbrew/Cellar/gcc/5.5.0/lib/gcc/x86_64-unknown-linux-gnu/5.5.0 -L/home/linuxbrew/.linuxbrew/lib CMakeFiles/cmTryCompileExec758379369.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /home/linuxbrew/.linuxbrew/Cellar/gcc/5.5.0/lib/gcc/x86_64-unknown-linux-gnu/5.5.0/crtend.o /home/linuxbrew/.linuxbrew/Cellar/gcc/5.5.0/lib/gcc/x86_64-unknown-linux-gnu/5.5.0/crtn.o]
+    arg [/home/linuxbrew/.linuxbrew/Cellar/gcc/5.5.0/libexec/gcc/x86_64-unknown-linux-gnu/5.5.0/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/home/linuxbrew/.linuxbrew/Cellar/gcc/5.5.0/libexec/gcc/x86_64-unknown-linux-gnu/5.5.0/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/home/linuxbrew/.linuxbrew/Cellar/gcc/5.5.0/libexec/gcc/x86_64-unknown-linux-gnu/5.5.0/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccX8oZbh.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [--dynamic-linker] ==> ignore
+    arg [/home/linuxbrew/.linuxbrew/lib/ld.so] ==> ignore
+    arg [-rpath] ==> ignore
+    arg [/home/linuxbrew/.linuxbrew/lib] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTryCompileExec758379369] ==> ignore
+    arg [/home/linuxbrew/.linuxbrew/Cellar/gcc/5.5.0/lib/gcc/x86_64-unknown-linux-gnu/5.5.0/crt1.o] ==> ignore
+    arg [/home/linuxbrew/.linuxbrew/Cellar/gcc/5.5.0/lib/gcc/x86_64-unknown-linux-gnu/5.5.0/crti.o] ==> ignore
+    arg [/home/linuxbrew/.linuxbrew/Cellar/gcc/5.5.0/lib/gcc/x86_64-unknown-linux-gnu/5.5.0/crtbegin.o] ==> ignore
+    arg [-nostdlib] ==> ignore
+    arg [-L/home/linuxbrew/.linuxbrew/Cellar/gcc/5.5.0/lib/gcc/x86_64-unknown-linux-gnu/5.5.0] ==> dir [/home/linuxbrew/.linuxbrew/Cellar/gcc/5.5.0/lib/gcc/x86_64-unknown-linux-gnu/5.5.0]
+    arg [-L/home/linuxbrew/.linuxbrew/lib] ==> dir [/home/linuxbrew/.linuxbrew/lib]
+    arg [CMakeFiles/cmTryCompileExec758379369.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [-lm] ==> lib [m]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [/home/linuxbrew/.linuxbrew/Cellar/gcc/5.5.0/lib/gcc/x86_64-unknown-linux-gnu/5.5.0/crtend.o] ==> ignore
+    arg [/home/linuxbrew/.linuxbrew/Cellar/gcc/5.5.0/lib/gcc/x86_64-unknown-linux-gnu/5.5.0/crtn.o] ==> ignore
+  remove lib [gcc_s]
+  remove lib [gcc]
+  remove lib [gcc_s]
+  remove lib [gcc]
+  collapse library dir [/home/linuxbrew/.linuxbrew/Cellar/gcc/5.5.0/lib/gcc/x86_64-unknown-linux-gnu/5.5.0] ==> [/home/linuxbrew/.linuxbrew/Cellar/gcc/5.5.0/lib/gcc/x86_64-unknown-linux-gnu/5.5.0]
+  collapse library dir [/home/linuxbrew/.linuxbrew/lib] ==> [/home/linuxbrew/.linuxbrew/lib]
+  implicit libs: [stdc++;m;c]
+  implicit dirs: [/home/linuxbrew/.linuxbrew/Cellar/gcc/5.5.0/lib/gcc/x86_64-unknown-linux-gnu/5.5.0;/home/linuxbrew/.linuxbrew/lib]
+  implicit fwks: []
+
+

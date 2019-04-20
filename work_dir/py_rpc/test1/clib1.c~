@@ -1,0 +1,48 @@
+
+#include "stdio.h"
+#include "stdlib.h"
+#include "stdint.h"
+
+
+static int32_t counter;
+
+int32_t test_func(void)
+{
+
+	counter++;
+
+	fprintf(stderr, "[clib1]: test_func()\n");
+
+	return counter;
+
+}
+
+
+char * alloc_memory_block(uint32_t size)
+{
+	fprintf(stderr, "[alloc_memory_block] size = %d\n", size);
+
+	char * memory_block;
+	memory_block = NULL;
+
+	memory_block = (char *)(malloc(sizeof(char) * size));
+	fprintf(stderr, "[alloc_memory_block] memory_block = %p\n", memory_block);
+
+	memset(memory_block, 0xFF, 
+
+	return memory_block;
+
+}
+
+void free_memory_block(char * ptr)
+{
+
+	fprintf(stderr, "[free_memory_block] ptr = %p\n", ptr);
+	if(ptr)
+	{
+		free(ptr);
+	}
+
+}
+
+
